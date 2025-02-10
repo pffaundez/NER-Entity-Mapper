@@ -1,0 +1,67 @@
+# 🗂 General
+.DS_Store
+Thumbs.db
+
+# 🐍 Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.bak
+
+# 📁 Virtual Environments
+venv/
+env/
+.venv/
+.conda/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 📊 Data & Datasets
+data/
+*.csv
+*.json
+*.xml
+*.tsv
+*.xlsx
+*.zip
+*.tar.gz
+*.parquet
+*.h5
+
+# 🤖 Machine Learning Models & Checkpoints
+models/
+checkpoints/
+*.hdf5
+*.ckpt
+*.onnx
+*.pt
+*.pkl
+*.joblib
+*.tflite
+
+# 📚 Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb~ 
+
+# 🛠 IDE & Code Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
+
+# 🚀 Logs & Temp Files
+logs/
+*.log
+*.out
+*.tmp
+nohup.out
+debug.log
+
+# 🔍 Git Ignore Overrides 
+# !data/README.md
+# !models/README.md
+# !notebooks/README.md
